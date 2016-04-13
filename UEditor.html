@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="fonts/style.css">
+	<link rel="stylesheet" type="text/css" href="css/global.css">
+	<link rel="stylesheet" type="text/css" href="css/release.css">
+</head>
+
+<body>
+
+<section>
+	<!-- Header -->
+	<div class="header">
+		<header>
+			<div class="h-left">
+				<a onclick="history.go(-1);">取消</a>
+			</div>
+			<h3 class="h-title">发布资讯</h3>
+			<div class="h-right">
+				<a onclick="Image.send();">发送</a>
+			</div>
+		</header>
+	</div>
+
+	<!-- Content -->
+	<div class="wrapper">
+		<div class="release">
+			<!-- Title -->
+			<div class="r-title">
+				<input type="text" placeholder="文章标题">
+			</div>
+			<!-- Editor -->
+			<div class="r-editor">
+				<div class="editor-box">
+					<div id="editor" class="editor-content" contenteditable="true" spellcheck="false"></div>
+				</div>
+			</div>
+			<!-- Control -->
+			<div class="r-control">
+				<a class="insert-img">
+					<i class="icon-image"></i>
+					<input type="file" id="insertImg" accept="image/*" onchange="Image.preview(this, 0.5);">
+				</a>
+				<a><i class="icon-price"></i></a>
+			</div>
+		</div>
+	</div>
+</section>
+
+<script src="js/jquery.min.js"></script>
+<script src="js/release.js"></script>
+
+</body>
+
+
+</html>

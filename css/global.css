@@ -1,0 +1,94 @@
+/* Global */
+* {
+	margin: 0;
+	padding: 0;
+}
+html, body {
+	height: 100%;
+}
+body {
+	font-size: 16px;
+	color: #666;
+	background-color: #edf1f4;
+}
+[class^="icon-"], [class*=" icon-"] {
+	line-height: inherit;
+}
+a {
+	text-decoration: none;
+}
+input:focus {
+	outline: none;
+}
+
+/* Header */
+.header {
+	height: 40px;
+	line-height: 40px;
+}
+.header header {
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	height: 40px;
+	background-color: #2486e5;
+}
+.header .h-title {
+	text-align: center;
+	color: #fff;
+	padding: 0 80px;
+}
+.header .h-left,
+.header .h-right {
+	position: absolute;
+	top: 0;
+	width: 96px;
+	height: 40px;
+}
+.header .h-left {
+	left: 0;
+}
+.header .h-right {
+	right: 0;
+}
+.header a {
+	display: block;
+	width: 48px;
+	height: 40px;
+	text-align: center;
+	color: #fff;
+	font-size: 16px;
+}
+.header a i {
+	font-size: 20px;
+}
+.header .h-left a {
+	float: left;
+}
+.header .h-right a {
+	float: right;
+}
+
+
+/* Content */
+.wrapper {
+	position: absolute;
+	top: 40px;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	overflow-x: hidden;
+	overflow-y: auto;
+	-webkit-overflow-scrolling: touch;
+}
+
+
+
+
+
+
+
+
+
+

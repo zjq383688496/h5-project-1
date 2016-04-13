@@ -1,0 +1,85 @@
+/* Release */
+.release {
+}
+.r-title {
+	width: 100%;
+	height: 60px;
+	background-color: #fff;
+}
+.r-title input {
+	display: block;
+	width: 100%;
+	height: 100%;
+	line-height: 30px;
+	padding: 15px;
+	box-sizing: border-box;
+	font-size: 18px;
+	border: 0;
+}
+
+/* Editor */
+.r-editor {
+	width: 100%;
+	height: 300px;
+	margin-top: 10px;
+	background-color: #fff;
+	padding: 15px;
+	box-sizing: border-box;
+}
+.editor-box {
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	-webkit-overflow-scrolling: touch;
+}
+.editor-content {
+	line-height: 24px;
+	min-height: 100%;
+	cursor: text;
+	outline: none;
+}
+
+/* Control */
+.r-control {
+	margin-top: 10px;
+	width: 100%;
+	height: 48px;
+	background-color: #fff;
+}
+.r-control a {
+	position: relative;
+	float: left;
+	display: block;
+	width: 64px;
+	height: 48px;
+	line-height: 48px;
+	margin-left: 10px;
+	text-align: center;
+	color: #ababab;
+	font-size: 22px;
+}
+.r-control a:nth-child(1) {
+	margin-left: 0;
+}
+.r-control a.insert-img {
+	
+}
+.r-control a.insert-img input {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	opacity: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
