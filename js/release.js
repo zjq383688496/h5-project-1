@@ -18,7 +18,7 @@ var Image = {
 		var len = file.length;
 		for (var i = 0; i < len; i++) {
 			var type = file[i].type;
-			if (type.indexOf('image') > -1) {
+			if (type.indexOf('image') > -1 && type.indexOf('svg') < 0) {
 				_img.push(file[i]);
 			}
 		}
@@ -107,4 +107,7 @@ var Image = {
 		alert(content);
 	}
 }
-Image.init();
+$(function() {
+	FastClick.attach(document.body);
+	Image.init();
+});

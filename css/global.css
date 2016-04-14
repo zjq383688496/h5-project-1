@@ -8,14 +8,18 @@ html, body {
 }
 body {
 	font-size: 16px;
-	color: #666;
+	color: #333;
 	background-color: #edf1f4;
 }
 [class^="icon-"], [class*=" icon-"] {
 	line-height: inherit;
 }
 a {
+	color: #333;
 	text-decoration: none;
+}
+input {
+	-webkit-appearance: none;
 }
 input:focus {
 	outline: none;
@@ -84,11 +88,16 @@ input:focus {
 }
 
 
-
-
-
-
-
-
-
-
+/* Footer */
+.footer {
+	height: 48px;
+	line-height: 48px;
+}
+.footer footer {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	height: 48px;
+	background-color: #fff;
+}

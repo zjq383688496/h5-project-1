@@ -53,13 +53,9 @@
 	width: 64px;
 	height: 48px;
 	line-height: 48px;
-	margin-left: 10px;
 	text-align: center;
 	color: #ababab;
 	font-size: 22px;
-}
-.r-control a:nth-child(1) {
-	margin-left: 0;
 }
 .r-control a.insert-img {
 	
@@ -72,14 +68,3 @@
 	left: 0;
 	opacity: 0;
 }
-
-
-
-
-
-
-
-
-
-
-
